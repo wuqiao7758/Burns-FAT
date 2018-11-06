@@ -1,0 +1,258 @@
+
+.container{
+    width: 1120px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header{
+    height:460px;
+    background:url(../img/news/bannertu.png) no-repeat center center;
+}
+.square{
+    width: 460px;
+    height: 170px;
+    margin: 0 auto;
+    padding-top:80px; 
+    text-align: center;
+    border-radius: 6px;
+    background: rgba(88,247,219, 0.7);
+}
+.square p{
+    color: #fff;
+    font-size: 20px;
+}
+.square .end_p{
+    width: 260px;
+    margin: 40px auto;
+}
+/* ***************************** */
+.container1{
+    width: 100%;
+    height: 140px;
+}
+
+.navbar {
+    width: 1200px;
+    height: 140px;
+    display: flex;
+    margin: 0 auto;
+    line-height: 140px;
+}
+
+.navbar li:first-child {
+    margin-left: 0;
+    width: 124px;
+    height: 140px;
+    margin-top: 25px;
+}
+
+.navbar li:nth-child(2) {
+    margin-left: 200px;
+}
+
+.navbar li {
+    margin-left: 87px;
+}
+
+.navbar li a {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.navbar li a:hover {
+    color: #58f7db;
+}
+/* **************************** */
+section{
+    width: 1226px;
+    margin: 0 auto;
+    box-shadow: 2px 0 6px 2px  rgba(0, 0, 0, 0.16);
+}
+ul li{
+    display: inline-block;
+}
+.one{
+    margin-top:74px; 
+    padding-top:44px; 
+}
+.word{
+    font-family: "MV Boli";
+	font-size: 30px;
+	color: #58f7db;
+}
+.line{
+    width: 166px;
+    height: 2px;
+    background: #58f7db;
+    margin: 15px auto;
+}
+h2{
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 30px;
+}
+.content ul li{
+    /* display: inline-block; */
+    width: 540px;
+    height: 240px;
+    margin-bottom:30px;
+    border-radius:6px;  
+    background: #eceaea;
+}
+.content ul li:nth-child(2n){
+    margin-left: 20px;
+    
+}
+
+.content ul li h4{
+    padding: 30px;
+    font-family: "MV Boli";
+    text-align: left;
+    font-size: 22px;
+    color: red;
+}
+.content ul li div{
+    display: inline-block;
+}
+.content ul li div h3{
+    font-size: 20px;
+    color: #222;
+    margin-bottom:20px; 
+}
+.content ul li div{
+    margin-right: 20px;
+}
+.content ul li .second{
+    vertical-align:top;
+    padding-bottom: 20px;
+}
+.content ul li div img{
+    width:120px;
+    height: 120px;
+}
+
+.content ul li div p{
+    width:300px;
+    color: #222;
+    padding-left:10px;
+    text-align: left;
+}
+.num{
+    text-align: right;
+    position: relative;
+}
+.num ul{
+    margin-right:50px; 
+}
+.num ul li{
+    /* display: inline-block; */
+    width: 35px;
+    height: 35px;
+    margin-right:26px;
+    margin-bottom:30px; 
+    line-height: 35px;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #58f7db;
+    border-radius: 4px;
+}
+.num ul li:hover{
+    background: #58f7db;
+    color: #fff;
+    cursor: pointer;
+}
+.num .left{
+    position: absolute;
+    top: 8px;
+    left: 835px;
+}
+.num .right{
+    position: absolute;
+    top: 8px;
+    right: 45px;;
+}
+/* ***********************three******************* */
+.three{
+    padding-top:33px; 
+}
+/* *****************section two******************* */
+
+.two{
+    padding-top:80px; 
+    margin-bottom:70px; 
+}
+.flower>li{
+    width: 540px;
+    height: 420px;
+    vertical-align: middle;
+    margin-bottom:82px; 
+}
+.flower li a>img{
+    width: 540px;
+    height: 420px;
+}
+.flower .sed{
+    margin-left:20px; 
+}
+.flower .sed h1{
+    padding:80px 0;
+    font-size: 26px;
+    color: #222;
+}
+.flower .sed p{
+    font-size: 20px;
+    color: #333;
+    text-align: left;
+}
+
+.nub ul{
+   padding-top:100px; 
+    
+}
+.nub ul .left_img{
+    position: absolute;
+    top: 108px;
+    left:255px;;
+}
+.nub ul .right_img{
+    position: absolute;
+    top:108px;
+    right: 45px;
+}
+/* *****************footer****************************** */
+footer{
+    margin: 0 auto;
+    width: 100%;
+    height: 240px;
+    background: #333;
+}
+footer .container0{
+    width: 1120px;
+    margin: 0 auto;
+    padding: 50px 0 30px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+footer .last{
+    margin-left: 100px;
+}
+footer .last img{
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+}
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    color: #58f7db;
+}
+footer p{
+    text-align: center;
+}

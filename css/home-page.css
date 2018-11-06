@@ -1,0 +1,344 @@
+header{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background: #ffff99;
+    padding-top: 30px;
+    background: url("../img/page/tubanner.png") no-repeat center center;
+    background-size: cover;
+}
+header nav{
+    width: 1000px;
+    margin: 0 auto;
+}
+header .container1 nav ul{
+    float:right;
+    margin-top: 20px;
+}
+header .container1 nav ul li{
+    float: left;
+    margin-left: 75px;
+}
+header .container1 nav ul li a{
+    color: #FFFFFF;
+    font-size: 22px;
+}
+header .banner{
+    width: 800px;
+    height: 350px;
+    /*background: blue;*/
+    margin: 40px auto;
+    background: url("../img/page/xiaobanner.png") no-repeat center center;
+    background-size:100%;
+    position: relative;
+}
+header .banner .green{
+    width: 380px;
+    height: 150px;
+    /*background: red;*/
+    color: #FFFFFF;
+    font-size: 17px;
+    margin-left: 380px;
+    position: absolute;
+    top:80px;
+    color: #272727;
+    font-family: "Microsoft YaHei UI";
+}
+header .banner .green h1{
+    line-height: 60px;
+    font-size: 22px;
+}
+/*******************课程介绍*************************/
+.course .container2{
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.course .container2>img{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.course .container2 ul{
+    height: 380px;
+}
+.course .container2 ul li{
+    float: left;
+    margin-right: 25px;
+}
+.course .container2 ul li:nth-of-type(4){
+    margin-right: 0;
+    margin-top: 25px;
+}
+.course .container2 ul li:nth-of-type(1){
+    margin-top: 25px;
+}
+.course .container2 div{
+    width: 256px;
+    height: 40px;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 370px;
+    color: #FFFFFF;
+    font-size: 26px;
+    line-height: 40px;
+}
+.course .container2 .thin{
+    left: 281px;
+}
+.course .container2 .balan{
+    left: 562px;
+}
+.course .container2 .more{
+    left: 910px;
+    top: 330px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    line-height:130px;
+}
+/******************绿色简餐*********************/
+.container3{
+    width:1100px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.container3>img:nth-of-type(2){
+    width: 100%;
+    height: 280px;
+}
+.container3>img:nth-of-type(1){
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.container3>div{
+    width: 290px;
+    height: 280px;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 215px;
+    left: 600px;
+    color: #FFFFFF;
+    display: none;
+}
+
+.container3>div>h1{
+    font-size: 30px;
+    margin-top: 30px;
+    line-height: 80px;
+    color: #58f7db;
+}
+.container3>div>img{
+    position: absolute;
+    top: 200px;
+    right: 115px;
+}
+/********************新闻赛事**********************/
+.container4{
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container4>img{
+    display: block;
+    margin: 50px auto;
+
+}
+.video1{
+    display: inline-block;
+    margin-right: 110px;
+}
+.video1 img{
+    width: 500px;
+    height: 400px;
+}
+.pk{
+    display: inline-block;
+    text-align: left;
+    font-size: 17px;
+    color: #272727;
+}
+.pk h1{
+    line-height: 60px;
+    font-size: 22px;
+}
+.pk p{
+    margin-bottom: 30px;
+}
+ .new{
+    text-align: right;
+    margin-top: 65px;
+}
+ .new img{
+    vertical-align: top;
+}
+ .new>div{
+    display: inline-block;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 17px;
+    margin-right: 30px;
+}
+ .new>div>h1{
+    line-height: 50px;
+    font-size: 19px;
+}
+.new>p{
+    display: inline-block;
+    font-size: 24px;
+    line-height: 40px;
+    margin-right: 20px;
+}
+ .new>p>span{
+    font-size: 48px;
+    margin-right: 20px;
+
+}
+.good{
+    color: #333;
+}
+.container5{
+    width: 1100px;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 65px;
+}
+.container5 img{
+    vertical-align: top;
+}
+.container5>div{
+    display: inline-block;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 17px;
+
+}
+.container5>div>h1{
+    line-height: 50px;
+    font-size: 19px;
+}
+.container5>p{
+    display: inline-block;
+    font-size: 24px;
+    line-height: 40px;
+    margin-right: 20px;
+}
+.container5>p>span{
+    font-size: 48px;
+    margin-right: 20px;
+
+}
+
+
+.container6{
+    width: 100%;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 65px;
+    color: #272727;
+}
+.container6 .good img{
+    vertical-align: top;
+}
+.container6 .good>div{
+    display: inline-block;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 17px;
+    margin-right: 30px;
+}
+.container6 .good>div>h1{
+    line-height: 50px;
+    font-size: 19px;
+}
+.container6 .good>p{
+    display: inline-block;
+    font-size: 24px;
+    line-height: 40px;
+    margin-right: 20px;
+}
+.container6 .good>p>span{
+    font-size: 48px;
+    margin-right: 20px;
+}
+/*  */
+.good:hover{  
+    background: #58F7DB;
+    color: #fff;
+}
+/*  */
+
+.container7{
+    width: 1100px;
+    text-align: center;
+    margin: 0 auto;
+}
+.container7>img{
+    margin-top: 80px;
+}
+.container7 ul{
+    position: relative;
+}
+.container7 ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.container7 ul>div{
+    width: 280px;
+    height: 60px;
+    background: black;
+    position: absolute;
+    bottom: 7px;
+    line-height: 60px;
+    font-size: 25px;
+}
+.container7 ul>div:nth-of-type(1){
+    left: 55px;
+}
+.container7 ul>div:nth-of-type(2){
+    width: 320px;
+    left: 370px;
+}
+.container7 ul>div:nth-of-type(3){
+    left: 734px;
+}
+footer{
+    width: 100%;
+    height: 240px;
+    margin-top: 30px;
+    background: #333;
+}
+footer .container{
+    width: 1120px;
+    margin: 0 auto;
+    padding: 50px 0 30px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+footer .last{
+    margin-left: 100px;
+}
+footer .last img{
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+}
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    color: #58f7db;
+}
+footer p{
+    text-align: center;
+}
